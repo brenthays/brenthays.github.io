@@ -6,6 +6,10 @@ My portfolio site built using Gridsome
 
 [https://gridsome-starter-bootstrap.loke.dev](https://gridsome-starter-bootstrap.loke.dev)
 
+## Deploy to GitHub Pages
+
+- Make all changes to Gridsome source code on the `source` branch.
+
 ## Gridsome Starter Bootstrap Features
 
 
