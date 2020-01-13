@@ -3,12 +3,12 @@
     <div v-for="(item, index) in $static.projects.edges" v-bind:class="{'bg-light': index % 2 === 0}">
       <div class="container project-container py-5">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-lg-5">
+          <div class="col-sm-12 col-lg-5">
             <a :href="item.node.demo" :title="item.node.title" target="_blank" class="project-img-link">
               <g-image immediate :src="item.node.image" class="project-img mb-sm-3 mb-lg-0"/>
             </a>
           </div>
-          <div class="col-xs12 col-sm-12 col-lg-7">
+          <div class="col-sm-12 col-lg-7">
             <h1 class="mb-4">{{item.node.title}}</h1>
             <div class="mb-3">
               <span v-for="tag in item.node.tags" class="badge badge-pill badge-dark mr-1">{{ tag }}</span>
