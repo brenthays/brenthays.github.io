@@ -8,7 +8,8 @@ My portfolio site built using Gridsome
 
 ## Deploy to GitHub Pages
 
-- Make all changes to Gridsome source code on the `source` branch.
+- Make all changes to source code on the `source` branch.
+- Remain on `source` branch and run `gridsome build && gh-pages -b master -d dist`
 
 ## Gridsome Starter Bootstrap Features
 
