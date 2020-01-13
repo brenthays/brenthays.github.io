@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-sm-12 col-lg-5">
             <a :href="item.node.demo" :title="item.node.title" target="_blank" class="project-img-link">
-              <g-image immediate :src="item.node.image" class="project-img mb-sm-3 mb-lg-0"/>
+              <g-image immediate :src="item.node.image" class="project-img mb-3 mb-lg-0"/>
             </a>
           </div>
           <div class="col-sm-12 col-lg-7">
