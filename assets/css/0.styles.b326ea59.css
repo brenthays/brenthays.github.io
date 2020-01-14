@@ -1,4 +1,4 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css);@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap);.page-footer a.footer-link{font-size:2rem}.nav-link{font-weight:700;font-size:1.15rem}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css);@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap);.page-footer a.footer-link{font-size:2rem}#app .navbar-dark .navbar-nav .nav-link{font-weight:700;font-size:1.15rem;color:#fff}#app .navbar-dark .navbar-nav .nav-link:hover{opacity:.75}
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
