@@ -17,7 +17,7 @@
 
 <static-query>
 query Skill {
-	skills: allSkill(sortBy: "order") {
+  skills: allSkill(sortBy: "order") {
     edges {
       node {
         title

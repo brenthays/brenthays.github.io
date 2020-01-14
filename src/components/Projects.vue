@@ -9,7 +9,7 @@
             </a>
           </div>
           <div class="col-sm-12 col-lg-7">
-            <h1 class="mb-4">{{item.node.title}}</h1>
+            <h1 class="mb-3">{{item.node.title}}</h1>
             <div class="mb-3">
               <span v-for="tag in item.node.tags" class="badge badge-pill badge-dark mr-1">{{ tag }}</span>
             </div>
@@ -25,7 +25,7 @@
 
 <static-query>
 query Project {
-	projects: allProject(sortBy: "order") {
+  projects: allProject(sortBy: "order") {
     edges {
       node {
         title
