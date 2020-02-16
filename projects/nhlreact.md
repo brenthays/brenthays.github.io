@@ -4,6 +4,7 @@ order: 0
 image: "../uploads/nhlreact.jpg"
 demo: https://nhlreact-f4708.firebaseapp.com/
 source: https://github.com/brenthays/NHLReact
+apiSource: null
 tags: ['React', 'Bootstrap']
 ---
 

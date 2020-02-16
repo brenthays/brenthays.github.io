@@ -16,6 +16,7 @@
             <div v-html="item.node.content" class="mb-4"></div>
             <a :href="item.node.demo" :title="item.node.title" class="btn btn-primary mr-1" target="_blank">Live Demo</a>
             <a :href="item.node.source" :title="item.node.title + ' Source'" class="btn btn-outline-primary mr-1" target="_blank">Source Code</a>
+            <a v-if="item.node.apiSource" :href="item.node.apiSource" :title="item.node.title + ' API Source'" class="btn btn-outline-primary mr-1" target="_blank">API Source Code</a>
           </div>
         </div>
       </div>
@@ -34,6 +35,7 @@ query Project {
         image
         demo
         source
+        apiSource
       }
     }
   }

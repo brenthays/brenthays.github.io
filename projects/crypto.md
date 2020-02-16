@@ -4,6 +4,7 @@ order: 1
 image: "../uploads/crypto.jpg"
 demo: https://cryptoportfolio-f24dc.firebaseapp.com/
 source: https://github.com/brenthays/CryptoPortfolio/
+apiSource: null
 tags: ['VueJS', 'Firebase', 'Bootstrap']
 ---
 
